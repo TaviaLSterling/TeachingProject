@@ -21,18 +21,20 @@
         <div class="parallax"></div>
         <div id="about" class="snow"><HelloWorld/></div>
    
-   <div id="contact" class="grass"></div>
+   <div id="contact" class="grass"><EmailForm/></div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+import EmailForm from '@/components/EmailForm.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    HelloWorld,
+    EmailForm
   }
 }
 </script>
