@@ -66,7 +66,7 @@ export default {
   align-items:center;
  
     /* The image used */
-    background-image: url("../assets/leaves.jpeg");
+    background-image: url("../assets/leaves2.jpeg");
     /* filter: blur(8px);
   -webkit-filter: blur(4px); */
 

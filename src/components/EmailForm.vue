@@ -3,7 +3,7 @@
           <div class="card text-white bg-dark offset-sm-3 col-sm-6">
             <div class="card-body">
                 <h3>Please email me to schedule!</h3>
-         <form action="mailto:" method="post" enctype="text/plain">
+         <form action="mailto:TaviaSterling@outlook.com" method="post" enctype="text/plain">
            <h4>Name:</h4>
             <input type="text" name="name">
             <h4>Email:</h4>

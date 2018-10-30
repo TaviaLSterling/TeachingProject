@@ -10,7 +10,16 @@
       Please let me know if I can help you take care of your lawn this fall and winter!
    </h3>
           </div>
-      </div>
+        </div>
+        <div class="card text-white bg-dark offset-sm-3 col-sm-7">
+            <div class="card-body">
+              <h5>My goal is to save $100</h5><br>
+              <h5>This is my progress so far:</h5>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">$10</div>
+              </div>
+            </div>
+        </div>
   </div>
 </template>
 
