@@ -1,6 +1,15 @@
 <template>
   <div class="hello">
-   <h3>My name is Cobus.</h3>
+      <div class="card text-white bg-dark offset-sm-3 col-sm-6">
+          <div class="card-body">
+   <h3> Hello! My name is Cobus.</h3>
+   <img src="../assets/Cobus.jpg" class="portrait">
+   <h3>I am 10 years old and love playing football and basketball.
+      I am a hard worker and an all A student.
+      Please let me know if I can help you take care of your lawn this winter!
+   </h3>
+          </div>
+      </div>
   </div>
 </template>
 
@@ -14,5 +23,12 @@ export default {
 <style scoped>
 h3 {
   margin-top:30px;
+}
+.portrait {
+height:40vh;
+}
+.card {
+  margin-top:30px;
+  margin-bottom:30px;
 }
 </style>
