@@ -18,7 +18,11 @@
             </ul>
           </div>
         </nav>
-        <div class="parallax"></div>
+        <div class="parallax">
+            <img src="../assets/shovel.png" class="head-img">
+          <h1 class="heading">Raking and Shoveling by Cobus</h1>
+           <img src="../assets/rake.png" class="head-img">
+        </div>
         <div id="about" class="snow"><HelloWorld/></div>
    
    <div id="contact" class="grass"><EmailForm/></div>
@@ -48,14 +52,23 @@ export default {
   margin-right:10px;
  
 }
+.head-img {
+  height:70px;
+  margin-right:15px;
+  margin-left:15px;
+}
 .navbar {
   padding-top: 30px;
 }
 .parallax {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ 
     /* The image used */
     background-image: url("../assets/leaves.jpeg");
-    filter: blur(8px);
-  -webkit-filter: blur(4px);
+    /* filter: blur(8px);
+  -webkit-filter: blur(4px); */
 
     /* Set a specific height */
     min-height: 500px; 
@@ -66,6 +79,12 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
+}
+.heading {
+  font-family: 'Milonga', cursive;
+  font-size:80px;
+  text-shadow: 2px 2px #f8f4f4;
 }
 .snow {
     border-top:80px solid black;

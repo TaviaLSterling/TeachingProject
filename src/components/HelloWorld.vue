@@ -1,12 +1,13 @@
 <template>
   <div class="hello container-fluid row">
-      <div class="card text-white bg-dark offset-sm-3 col-sm-6">
+      <div class="card text-white bg-dark offset-sm-3 col-sm-7">
           <div class="card-body">
    <h3> Hello! My name is Cobus.</h3>
    <img src="../assets/Cobus.jpg" class="portrait">
    <h3>I am 10 years old and love playing football and basketball.
-      I am a hard worker and an all A student.
-      Please let me know if I can help you take care of your lawn this winter!
+     <br> I am a hard worker and an all A student.<br>I am trying to earn money so that I can buy myself a new scooter.
+    <br>I can rake and bag leaves or shovel your sidewalk and driveway.<br>
+      Please let me know if I can help you take care of your lawn this fall and winter!
    </h3>
           </div>
       </div>
