@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello container-fluid row">
       <div class="card text-white bg-dark offset-sm-3 col-sm-6">
           <div class="card-body">
    <h3> Hello! My name is Cobus.</h3>

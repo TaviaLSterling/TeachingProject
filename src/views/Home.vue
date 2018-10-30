@@ -1,8 +1,8 @@
 <template>
   <div class="home">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img src="../assets/rake.png" class="icon">
-          <div class="navbar-brand">Raking and Shoveling by Cobus</div>
+        <!-- <img src="../assets/rake.png" class="icon"> -->
+          <div class="navbar-brand"></div>
           <img src="../assets/shovel.png" class="icon">
         
         
@@ -10,10 +10,10 @@
             <ul class="navbar-nav mr-auto offset-sm-9">
               
               <li class="nav-item active">
-                <a class="nav-link active" href="#contact">Contact</a>
+                <a class="nav-link active" href="#contact"><h4>Contact</h4></a>
               </li>
               <li class="nav-item offset-sm-4">
-                <a class="nav-link active" href="#about">About</a>
+                <a class="nav-link active" href="#about"><h4>About</h4></a>
               </li>
             </ul>
           </div>
@@ -39,7 +39,9 @@ export default {
 }
 </script>
 <style scoped>
-
+.home {
+  font-family: 'Gentium Book Basic', serif;
+}
 .icon {
   height:40px;
   width:40px;
@@ -47,14 +49,17 @@ export default {
  
 }
 .navbar {
-  margin-top: 50px;
+  padding-top: 30px;
 }
 .parallax {
     /* The image used */
     background-image: url("../assets/leaves.jpeg");
+    filter: blur(8px);
+  -webkit-filter: blur(4px);
 
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 500px; 
+    /* width:fit-content; */
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -67,6 +72,7 @@ export default {
     border-bottom: 100px solid black;
     background-image: url("../assets/snow.jpeg");
     min-height: 800px;
+    width:100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,5 +81,7 @@ export default {
 .grass {
   background-image: url("../assets/grass.jpeg");
   min-height:600px;
+  width:100%;
 }
+
 </style>
