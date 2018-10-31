@@ -16,7 +16,7 @@
               <h5>My goal is to save $100</h5><br>
               <h5>This is my progress so far:</h5>
             <div class="progress" style="height: 30px;">
-                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">$10</div>
+                <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">$10</div>
               </div>
             </div>
         </div>

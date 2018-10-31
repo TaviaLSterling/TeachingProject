@@ -9,7 +9,7 @@
             <h4>Email:</h4>
             <input type="text" name="mail"><br>
             <h4>Let me know how I can help you:</h4>
-            <input type="text" name="comment" size="50"><br><br>
+            <input type="text" name="comment" size="30"><br><br>
             <input class="btn btn-primary" type="submit" value="Send">
             </form>
             </div>
